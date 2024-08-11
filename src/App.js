@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
     <BrowserRouter>
-    <Navbar/>
+    <span/><Navbar/>
     <Routes>
       <Route path='/' element={<Shop/>}/>
       <Route path='/mens' element={<ShopCategory banner={men_banner} category="men"/>}/>

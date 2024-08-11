@@ -127,7 +127,7 @@
         width:160px;
         display:grid;
         grid-template-columns: 1fr 1fr;
-        gap:20px;
+        gap:60px;
     }
     .item-price-old 
     {

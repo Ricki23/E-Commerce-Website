@@ -90,6 +90,10 @@
 }
 @media (max-width:800px)
 {
+    .new-collections
+    {
+        gap:6px;
+    }
     .new-collections h1
     {
         font-size:20px;
@@ -116,7 +120,7 @@
     {
         margin:100px 10px;
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap:20px;
     }
 }
